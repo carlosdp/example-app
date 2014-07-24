@@ -51,6 +51,7 @@ production:
   adapter: postgresql
   encoding: unicode
   database: example-app_production
+  template: template0
   pool: 5
   host: <%= ENV['POSTGRES_PORT_5432_TCP_ADDR'] %>
   password: <%= ENV['POSTGRES_PORT_5432_TCP_PORT'] %>
